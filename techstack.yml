@@ -1,0 +1,580 @@
+repo_name: caseyspaulding/CRUD
+report_id: 6d0e158977cdbdab66534e7ef9cbdf87
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-21T13:53:07+00:00'
+requested_by: pxpm
+provider: github
+branch: main
+detected_tools_count: 44
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/caseyspaulding/CRUD
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/caseyspaulding/CRUD
+  detection_source: Repo Metadata
+- name: 'Animate.css '
+  description: A library of CSS animations
+  website_url: https://animate.style/
+  version: 4.1.1
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/9195/default_5aa00f79c6648507ba5f6c66c130a832332e5adc.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cristian Tabacitu
+  last_updated_on: 2021-10-25 08:26:47.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-12-01 22:01:47.000000000 Z
+- name: Guzzle
+  description: PHP HTTP client that makes it easy to send HTTP requests and trivial
+    to integrate with web services
+  website_url: http://guzzlephp.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/2350/638632.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Mokhlas Hussein
+  last_updated_on: 2020-05-20 00:13:07.000000000 Z
+- name: Laravel
+  description: A PHP Framework For Web Artisans
+  website_url: http://laravel.com/
+  version: '10.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Pedro X
+  last_updated_on: 2023-01-31 17:47:26.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Cristian Tabacitu
+  last_updated_on: 2019-09-05 06:20:07.000000000 Z
+- name: Select2
+  description: The jQuery replacement for select boxes
+  website_url: https://select2.github.io/
+  version: 4.0.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/7488/select2.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cristian Tabacitu
+  last_updated_on: 2020-02-02 06:29:50.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Cristian Tabacitu
+  last_updated_on: 2019-09-05 06:20:07.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-02-02 12:46:40.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-03-01 22:10:36.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/src/app/Library/CrudPanel/CrudPanel.php
+  detection_source: src/app/Library/CrudPanel/CrudPanel.php
+  last_updated_by: andrycs
+  last_updated_on: 2019-05-22 03:58:51.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/src/public/packages/nestedSortable/.eslintrc
+  detection_source: src/public/packages/nestedSortable/.eslintrc
+  last_updated_by: Cristian Tabacitu
+  last_updated_on: 2019-09-05 06:20:07.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/.github/workflows/add-to-project.yml
+  detection_source: ".github/workflows/add-to-project.yml"
+  last_updated_by: Alex
+  last_updated_on: 2022-09-20 11:43:08.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: '8.0'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Cristian Tabacitu
+  last_updated_on: 2015-07-27 12:59:30.000000000 Z
+- name: Rollbar
+  description: Proactively discover, predict, and remediate errors.
+  website_url: https://rollbar.com/
+  open_source: false
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Exception Monitoring
+  image_url: https://img.stackshare.io/service/328/default_3147629185038a15dd41907749544023633da1ea.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-02-01 22:01:01.000000000 Z
+- name: Scrutinizer
+  description: Continuous inspection platform - improve code quality and find bugs
+    before they hit production
+  website_url: https://scrutinizer-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2017/a5b5e5e6414e2c07bef76c9d2a29cd46.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Cristian Tabacitu
+  last_updated_on: 2020-03-04 06:18:32.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Cristian Tabacitu
+  last_updated_on: 2019-09-05 06:20:07.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2021-03-01 10:41:19.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-21 07:44:27.000000000 Z
+- name: SweetAlert
+  description: A beautiful replacement for JavaScript's "alert"
+  website_url: https://sweetalert.js.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://ucarecdn.com/c4c55828-7bcf-4661-8f4f-52745636aafd/
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Cristian Tabacitu
+  last_updated_on: 2019-09-05 06:20:07.000000000 Z
+- name: TinyMCE
+  description: JavaScript library for rich text editing
+  website_url: https://www.tiny.cloud/
+  version: 5.10.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/3655/eVcDQYNK_400x400.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cristian Tabacitu
+  last_updated_on: 2019-09-05 06:20:07.000000000 Z
+- name: laravel-mix
+  description: A framework for web artisans.
+  website_url: https://laravel.com/docs/5.5/mix
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7945/h7umz7fz_normal.jpg
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-01 22:07:04.000000000 Z
+- name: summernote
+  website_url: https://summernote.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9106/no-img-open-source.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-11-02 09:58:25.000000000 Z
+- name: creativeorange/gravatar
+  description: A Laravel Gravatar package for retrieving gravatar image URLs or checking
+    the existance of an image
+  package_url: https://packagist.org/creativeorange/gravatar
+  version: '1.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Cristian Tăbăcitu
+  last_updated_on: 2023-04-06 05:28:00.000000000 Z
+- name: doctrine/dbal
+  description: Powerful PHP database abstraction layer
+  package_url: https://packagist.org/doctrine/dbal
+  version: '2.5'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Cristian Tabacitu
+  last_updated_on: 2021-02-05 09:40:41.000000000 Z
+- name: guzzlehttp/guzzle
+  description: Guzzle is a PHP HTTP client library
+  package_url: https://packagist.org/guzzlehttp/guzzle
+  version: '7.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Cristian Tabacitu
+  last_updated_on: 2021-04-08 09:58:50.000000000 Z
+- name: laravel/framework
+  description: The Laravel Framework
+  package_url: https://packagist.org/laravel/framework
+  version: '10.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Pedro X
+  last_updated_on: 2023-01-31 17:47:26.000000000 Z
+- name: orchestra/testbench
+  description: Laravel Testing Helper for Packages Development
+  package_url: https://packagist.org/orchestra/testbench
+  version: '8.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Pedro X
+  last_updated_on: 2023-01-31 16:51:30.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: '8.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Cristian Tabacitu
+  last_updated_on: 2021-05-10 07:35:21.000000000 Z
+- name: prologue/alerts
+  description: Prologue Alerts is a package that handles global site messages
+  package_url: https://packagist.org/prologue/alerts
+  version: '1.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Pedro X
+  last_updated_on: 2023-01-31 17:47:26.000000000 Z
+- name: scrutinizer/ocular
+  description: CLI for uploading external code coverage data
+  package_url: https://packagist.org/scrutinizer/ocular
+  version: '1.7'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Cristian Tabacitu
+  last_updated_on: 2020-03-04 06:18:32.000000000 Z
+- name: spatie/laravel-translatable
+  description: A trait to make an Eloquent model hold translations
+  package_url: https://packagist.org/spatie/laravel-translatable
+  version: '4.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Pedro X
+  last_updated_on: 2023-01-31 17:47:26.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2021-01-01 07:32:44.000000000 Z
+- name: laravel-mix
+  description: Laravel Mix is an elegant wrapper around Webpack for the 80% use case
+  package_url: https://www.npmjs.com/laravel-mix
+  version: 6.0.49
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17350/default_33c3173e7d0e91f7cea0eab9883ca83b157bd4a5.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-01 22:07:04.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-21 07:44:27.000000000 Z
+- name: perfect-scrollbar
+  description: Minimalistic but perfect custom scrollbar plugin
+  package_url: https://www.npmjs.com/perfect-scrollbar
+  version: 1.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18340/default_a605b2929de4c3bd4460a01b8dc144fde6aa5419.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-02-01 22:01:01.000000000 Z
+- name: popper.js
+  description: A kickass library to manage your poppers
+  package_url: https://www.npmjs.com/popper.js
+  version: 1.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16357/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-01-01 22:01:05.000000000 Z
+- name: resolve-url-loader
+  description: Webpack loader that resolves relative paths in url
+  package_url: https://www.npmjs.com/resolve-url-loader
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16468/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-02-02 12:46:40.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 9.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-03-01 22:56:56.000000000 Z
+- name: urijs
+  description: URI.js is a Javascript library for working with URLs
+  package_url: https://www.npmjs.com/urijs
+  version: 1.19.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17237/default_4cd9fed0bfdeacace38f5fa25eb085538f01330b.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-04-13 00:16:15.000000000 Z
+- name: vue-template-compiler
+  description: Template compiler for Vue 2.0
+  package_url: https://www.npmjs.com/vue-template-compiler
+  version: 2.7.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/caseyspaulding/CRUD/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 22:04:04.000000000 Z
